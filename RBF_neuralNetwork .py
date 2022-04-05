@@ -158,7 +158,7 @@ print('resulats de scalling')
 print(X,y)
 
 from sklearn.model_selection import train_test_split
-from keras.optimizers import SGD
+from tensorflow.keras.optimizers import SGD
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size = 0.2,random_state=0)#80% train et 20% test
 
 # from sklearn.preprocessing import StandardScaler
