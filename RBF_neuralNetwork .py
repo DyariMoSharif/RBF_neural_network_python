@@ -7,7 +7,7 @@ Change data to your location
 """
 
 from keras import backend as K
-from keras.engine.topology import Layer
+from tensorflow.python.keras.layers import Layer
 from keras.initializers import RandomUniform, Initializer, Constant
 import numpy as np
 
@@ -123,7 +123,7 @@ import numpy as np, pandas as pd
 from keras.models import Sequential 
 from keras.layers.core import Dense
 from keras.layers import Activation
-from keras.optimizers import RMSprop
+from tensorflow.keras.optimizers import RMSprop
 import matplotlib.pyplot as plt
 
 
