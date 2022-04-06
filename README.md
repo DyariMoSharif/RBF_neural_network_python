@@ -1,3 +1,17 @@
+I Updated three of the libraries that were not working.
+I tested the code using Python version 3.9.7 and TensorFlow version 2.8.0, The following libraries were not working so I googled and I updated them to their latest ones.
+
+Libraries:
+Before: from keras.engine.topology import Layer
+After:from tensorflow.python.keras.layers import Layer
+
+Before: from keras.optimizers import RMSprop
+After:from tensorflow.keras.optimizers import RMSprop
+
+Before: from keras.optimizers import SGD
+After: from tensorflow.keras.optimizers import SGD
+-------------------------------------------------------------
+
 # RBF_neural_network_python
 Author: Abderraouf Zoghbi , UBMA , Departement of Computer Science.
 
